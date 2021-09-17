@@ -25,7 +25,6 @@ namespace FamousFacesOfTheIliacBay
         private const string variantHebu = "_hebu";
         private const string variantNorthmoor = "_northmoor";
         private const string variantDaenia = "_daenia";
-        private const string variantPothago = "_pothago";
         private const string variantEphesus = "_ephesus";
         private const string variantIlessanHills = "_ilessanhills";
         private const string variantKambria = "_kambria";
@@ -47,6 +46,8 @@ namespace FamousFacesOfTheIliacBay
         private const string variantTulune = "_tulune";
         private const string variantAbibonGora = "_abibongora";
         private const string variantMerwarkHollow = "_merwarkhollow";
+        private const string variantKairou = "_kairou";
+        private const string variantPothago = "_pothago";
 
         static Mod mod;
 
@@ -90,11 +91,41 @@ namespace FamousFacesOfTheIliacBay
             }  
 
             // Abibon-gora (78) in region 43
-            if (WorldDataVariants.GetBuildingVariant(43, 78, "PALABA01.RMB", 0) == null)
+            if (WorldDataVariants.GetBuildingVariant(43, 78, "PALAGA01.RMB", 0) == null)
             {
                 int locAbibonGora = WorldDataReplacement.MakeLocationKey(43, 78);
-                WorldDataVariants.SetBuildingVariant("PALABA01.RMB", 0, variantAbibonGora, locAbibonGora);
-            }                               
+                WorldDataVariants.SetBuildingVariant("PALAGA01.RMB", 0, variantAbibonGora, locAbibonGora);
+            }                                
+
+            // Anticlere (600) in region 21
+            if (WorldDataVariants.GetBuildingVariant(21, 600, "PALAAA02.RMB", 0) == null)
+            {
+                int locAnticlere = WorldDataReplacement.MakeLocationKey(21, 600);
+                WorldDataVariants.SetBuildingVariant("PALAAA02.RMB", 0, variantAnticlere, locAnticlere);
+                WorldDataVariants.SetBuildingVariant("THIEAL00.RMB", 0, variantAnticlere, locAnticlere);
+                WorldDataVariants.SetBuildingVariant("TEMPAAC0.RMB", 0, variantAnticlere, locAnticlere);
+            }
+
+            // Bubissidata (2) in region 20
+            if (WorldDataVariants.GetBuildingVariant(20, 2, "THIEAL00.RMB", 0) == null)
+            {
+                int locBubissidata = WorldDataReplacement.MakeLocationKey(20, 2);
+                WorldDataVariants.SetBuildingVariant("THIEAL00.RMB", 0, variantBubissidata, locBubissidata);
+            }
+
+            // Pothago (6) in region 45
+            if (WorldDataVariants.GetBuildingVariant(45, 6, "PALAGA01.RMB", 0) == null)
+            {
+                int locPothago = WorldDataReplacement.MakeLocationKey(45, 6);
+                WorldDataVariants.SetBuildingVariant("PALAGA01.RMB", 0, variantPothago, locPothago);
+            } 
+
+            // Kairou (97) in region 44
+            if (WorldDataVariants.GetBuildingVariant(44, 97, "PALAGA04.RMB", 0) == null)
+            {
+                int locKairou = WorldDataReplacement.MakeLocationKey(44, 97);
+                WorldDataVariants.SetBuildingVariant("PALAGA04.RMB", 0, variantKairou, locKairou);
+            } 
 
             // Tulune (59) in region 58
             if (WorldDataVariants.GetBuildingVariant(58, 59, "PALAAA02.RMB", 0) == null)
@@ -227,28 +258,7 @@ namespace FamousFacesOfTheIliacBay
             {
                 int locLainlyn = WorldDataReplacement.MakeLocationKey(22, 103);
                 WorldDataVariants.SetBuildingVariant("PALAAA00.RMB", 0, variantLainlyn, locLainlyn);
-            }    
-
-            // Anticlere Palace (600) in region 21
-            if (WorldDataVariants.GetBuildingVariant(21, 600, "PALAAA02.RMB", 0) == null)
-            {
-                int locAnticlere = WorldDataReplacement.MakeLocationKey(21, 600);
-                WorldDataVariants.SetBuildingVariant("PALAAA02.RMB", 0, variantAnticlere, locAnticlere);
-            }    
-
-            // Anticlere Thieves Guild (600) in region 21
-            if (WorldDataVariants.GetBuildingVariant(21, 600, "TEMPAAC0.RMB", 0) == null)
-            {
-                int locAnticlere = WorldDataReplacement.MakeLocationKey(21, 600);
-                WorldDataVariants.SetBuildingVariant("TEMPAAC0.RMB", 0, variantAnticlere, locAnticlere); 
-            }  
-
-            // Anticlere Temple (600) in region 21
-            if (WorldDataVariants.GetBuildingVariant(21, 600, "THIEAL00.RMB", 0) == null)
-            {
-                int locAnticlere = WorldDataReplacement.MakeLocationKey(21, 600);
-                WorldDataVariants.SetBuildingVariant("TEMPAAC0.RMB", 0, variantAnticlere, locAnticlere); 
-            }              
+            }                  
 
             // Ykalon (357) in region 40
             if (WorldDataVariants.GetBuildingVariant(40, 357, "PALAAA02.RMB", 0) == null)
@@ -276,14 +286,7 @@ namespace FamousFacesOfTheIliacBay
             {
                 int locRipfort = WorldDataReplacement.MakeLocationKey(18, 410);
                 WorldDataVariants.SetBuildingVariant("THIEAM00.RMB", 0, variantRipfort, locRipfort);
-            }             
-
-            // Bubissidata (2) in region 20
-            if (WorldDataVariants.GetBuildingVariant(20, 2, "THIEAL00.RMB", 0) == null)
-            {
-                int locBubissidata = WorldDataReplacement.MakeLocationKey(20, 2);
-                WorldDataVariants.SetBuildingVariant("THIEAL00.RMB", 0, variantBubissidata, locBubissidata);
-            }    
+            }                 
 
             // Northmoor (252) in region 32
             if (WorldDataVariants.GetBuildingVariant(32, 252, "PALAAA00.RMB", 0) == null)
@@ -297,14 +300,7 @@ namespace FamousFacesOfTheIliacBay
             {
                 int locDaenia = WorldDataReplacement.MakeLocationKey(41, 101);
                 WorldDataVariants.SetBuildingVariant("PALAAA02.RMB", 0, variantDaenia, locDaenia);
-            } 
-
-            // Pothago (6) in region 45
-            if (WorldDataVariants.GetBuildingVariant(6, 45, "PALAGA01.RMB", 0) == null)
-            {
-                int locPothago = WorldDataReplacement.MakeLocationKey(6, 45);
-                WorldDataVariants.SetBuildingVariant("PALAGA01.RMB", 0, variantPothago, locPothago);
-            }         
+            }        
 
             // Ephesus (205) in region 53
             if (WorldDataVariants.GetBuildingVariant(53, 205, "PALAAA00.RMB", 0) == null)
