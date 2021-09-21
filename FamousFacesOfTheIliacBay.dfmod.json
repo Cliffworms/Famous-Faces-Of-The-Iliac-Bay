@@ -1,6 +1,9 @@
 {
     "ModTitle": "Famous Faces of the Iliac Bay",
+    "ModVersion": "1.0",
+    "ModAuthor": "Cliffworms",
     "DFUnity_Version": "0.12.3",
+    "ModDescription": "Brings back Daggerfall's missing unique NPCs and changes the sprite of most regions' rulers with one more unique.",
     "GUID": "eba809ee-dad4-4a7f-82f2-04b0ae40752b",
     "Files": [
         "Assets/Game/Mods/FamousFacesOfTheIliacBay/WorldData/PALAAA00.RMB-314-building0_menevia.json",
