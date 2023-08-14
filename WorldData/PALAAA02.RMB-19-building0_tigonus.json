@@ -2159,7 +2159,7 @@
             "BlockSection3Records": [],
             "BlockPeopleRecords": [
                 {
-                    "Position": 0,
+                    "Position": 3089,
                     "XPos": 123,
                     "YPos": -129,
                     "ZPos": 180,
@@ -2169,7 +2169,7 @@
                     "Flags": 1
                 },
                 {
-                    "Position": 1,
+                    "Position": 3090,
                     "XPos": 2,
                     "YPos": -129,
                     "ZPos": 185,
@@ -2179,33 +2179,33 @@
                     "Flags": 1
                 },
                 {
-                    "Position": 2,
+                    "Position": 3091,
                     "XPos": 64,
-                    "YPos": -1,
-                    "ZPos": 296,
-                    "TextureArchive": 184,
-                    "TextureRecord": 19,
-                    "FactionID": 0,
-                    "Flags": 33
-                },
-                {
-                    "Position": 3,
-                    "XPos": -176,
-                    "YPos": 0,
-                    "ZPos": 80,
-                    "TextureArchive": 184,
-                    "TextureRecord": 32,
-                    "FactionID": 0,
-                    "Flags": 33
-                },
-                {
-                    "Position": 4,
-                    "XPos": 45,
                     "YPos": -128,
                     "ZPos": 107,
                     "TextureArchive": 184,
                     "TextureRecord": 1,
                     "FactionID": 852,
+                    "Flags": 0
+                },
+                {
+                    "Position": 3092,
+                    "XPos": 62,
+                    "YPos": -1,
+                    "ZPos": 294,
+                    "TextureArchive": 1200,
+                    "TextureRecord": 9,
+                    "FactionID": 560,
+                    "Flags": 34
+                },
+                {
+                    "Position": 3093,
+                    "XPos": -191,
+                    "YPos": -2,
+                    "ZPos": 82,
+                    "TextureArchive": 184,
+                    "TextureRecord": 18,
+                    "FactionID": 0,
                     "Flags": 0
                 }
             ],

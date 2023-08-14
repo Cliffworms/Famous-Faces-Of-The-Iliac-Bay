@@ -2596,44 +2596,44 @@
             ],
             "BlockPeopleRecords": [
                 {
-                    "Position": 0,
-                    "XPos": 320,
-                    "YPos": 0,
-                    "ZPos": -296,
-                    "TextureArchive": 184,
-                    "TextureRecord": 26,
-                    "FactionID": 0,
-                    "Flags": 33
-                },
-                {
-                    "Position": 1,
+                    "Position": 4559,
                     "XPos": 232,
-                    "YPos": -130,
+                    "YPos": -131,
                     "ZPos": -40,
                     "TextureArchive": 184,
-                    "TextureRecord": 28,
+                    "TextureRecord": 18,
                     "FactionID": 0,
                     "Flags": 33
                 },
                 {
-                    "Position": 2,
-                    "XPos": 75,
-                    "YPos": 0,
-                    "ZPos": 340,
-                    "TextureArchive": 183,
-                    "TextureRecord": 3,
-                    "FactionID": 853,
-                    "Flags": 0
-                },
-                {
-                    "Position": 3,
+                    "Position": 4560,
                     "XPos": -1,
                     "YPos": 2,
-                    "ZPos": 256,
+                    "ZPos": 285,
                     "TextureArchive": 184,
                     "TextureRecord": 1,
                     "FactionID": 852,
                     "Flags": 0
+                },
+                {
+                    "Position": 4561,
+                    "XPos": 76,
+                    "YPos": -1,
+                    "ZPos": 339,
+                    "TextureArchive": 1016,
+                    "TextureRecord": 0,
+                    "FactionID": 853,
+                    "Flags": 0
+                },
+                {
+                    "Position": 4562,
+                    "XPos": 316,
+                    "YPos": -1,
+                    "ZPos": -307,
+                    "TextureArchive": 1200,
+                    "TextureRecord": 9,
+                    "FactionID": 568,
+                    "Flags": 32
                 }
             ],
             "BlockDoorRecords": [

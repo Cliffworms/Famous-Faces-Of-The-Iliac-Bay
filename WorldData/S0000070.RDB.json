@@ -1281,7 +1281,7 @@
                                 "TextureRecord": 5,
                                 "Flags": 2,
                                 "Magnitude": 24,
-                                "SoundIndex": 0,
+                                "SoundIndex": 24,
                                 "FactionOrMobileId": 6168,
                                 "NextObjectOffset": 18217,
                                 "Action": 12,

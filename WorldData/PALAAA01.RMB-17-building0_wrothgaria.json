@@ -2727,17 +2727,7 @@
             ],
             "BlockPeopleRecords": [
                 {
-                    "Position": 0,
-                    "XPos": 264,
-                    "YPos": -1,
-                    "ZPos": -312,
-                    "TextureArchive": 184,
-                    "TextureRecord": 28,
-                    "FactionID": 0,
-                    "Flags": 33
-                },
-                {
-                    "Position": 1,
+                    "Position": 3215,
                     "XPos": 328,
                     "YPos": -130,
                     "ZPos": -280,
@@ -2747,7 +2737,7 @@
                     "Flags": 33
                 },
                 {
-                    "Position": 2,
+                    "Position": 3216,
                     "XPos": -1,
                     "YPos": 2,
                     "ZPos": 272,
@@ -2757,7 +2747,7 @@
                     "Flags": 9
                 },
                 {
-                    "Position": 3,
+                    "Position": 3217,
                     "XPos": -82,
                     "YPos": 0,
                     "ZPos": 259,
@@ -2765,6 +2755,16 @@
                     "TextureRecord": 2,
                     "FactionID": 853,
                     "Flags": 0
+                },
+                {
+                    "Position": 3218,
+                    "XPos": 281,
+                    "YPos": -1,
+                    "ZPos": -311,
+                    "TextureArchive": 1200,
+                    "TextureRecord": 19,
+                    "FactionID": 853,
+                    "Flags": 32
                 }
             ],
             "BlockDoorRecords": [

@@ -2596,27 +2596,7 @@
             ],
             "BlockPeopleRecords": [
                 {
-                    "Position": 0,
-                    "XPos": 320,
-                    "YPos": 0,
-                    "ZPos": -296,
-                    "TextureArchive": 184,
-                    "TextureRecord": 26,
-                    "FactionID": 0,
-                    "Flags": 33
-                },
-                {
-                    "Position": 1,
-                    "XPos": 232,
-                    "YPos": -130,
-                    "ZPos": -40,
-                    "TextureArchive": 184,
-                    "TextureRecord": 28,
-                    "FactionID": 0,
-                    "Flags": 33
-                },
-                {
-                    "Position": 2,
+                    "Position": 4559,
                     "XPos": 75,
                     "YPos": 0,
                     "ZPos": 340,
@@ -2626,13 +2606,33 @@
                     "Flags": 0
                 },
                 {
-                    "Position": 3,
+                    "Position": 4560,
                     "XPos": 15,
                     "YPos": 2,
                     "ZPos": 263,
                     "TextureArchive": 184,
                     "TextureRecord": 0,
                     "FactionID": 852,
+                    "Flags": 0
+                },
+                {
+                    "Position": 4561,
+                    "XPos": 333,
+                    "YPos": -1,
+                    "ZPos": -304,
+                    "TextureArchive": 1200,
+                    "TextureRecord": 9,
+                    "FactionID": 572,
+                    "Flags": 34
+                },
+                {
+                    "Position": 4562,
+                    "XPos": 262,
+                    "YPos": -131,
+                    "ZPos": -3,
+                    "TextureArchive": 184,
+                    "TextureRecord": 18,
+                    "FactionID": 0,
                     "Flags": 0
                 }
             ],

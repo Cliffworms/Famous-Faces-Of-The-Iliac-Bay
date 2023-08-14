@@ -1549,7 +1549,7 @@
                     "XRotation": 0,
                     "YRotation": -1024,
                     "ZRotation": 0
-                },                
+                },
                 {
                     "ModelId": "41123",
                     "ModelIdNum": 41123,
@@ -2705,7 +2705,7 @@
             ],
             "BlockPeopleRecords": [
                 {
-                    "Position": 0,
+                    "Position": 3215,
                     "XPos": 264,
                     "YPos": -1,
                     "ZPos": -312,
@@ -2715,7 +2715,7 @@
                     "Flags": 33
                 },
                 {
-                    "Position": 1,
+                    "Position": 3216,
                     "XPos": 328,
                     "YPos": -130,
                     "ZPos": -280,
@@ -2725,7 +2725,7 @@
                     "Flags": 33
                 },
                 {
-                    "Position": 2,
+                    "Position": 3217,
                     "XPos": 5,
                     "YPos": 0,
                     "ZPos": 260,
@@ -2735,13 +2735,23 @@
                     "Flags": 0
                 },
                 {
-                    "Position": 3,
+                    "Position": 3218,
                     "XPos": 51,
                     "YPos": 0,
                     "ZPos": 329,
                     "TextureArchive": 183,
                     "TextureRecord": 2,
                     "FactionID": 852,
+                    "Flags": 0
+                },
+                {
+                    "Position": 3219,
+                    "XPos": -70,
+                    "YPos": -1,
+                    "ZPos": 334,
+                    "TextureArchive": 1200,
+                    "TextureRecord": 17,
+                    "FactionID": 242,
                     "Flags": 0
                 }
             ],

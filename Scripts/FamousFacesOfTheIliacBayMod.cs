@@ -10,6 +10,7 @@ using DaggerfallWorkshop.Game.Serialization;
 using DaggerfallWorkshop.Game.Utility;
 using DaggerfallWorkshop.Game.Utility.ModSupport;
 using DaggerfallWorkshop.Utility.AssetInjection;
+using DaggerfallWorkshop.Utility;
 
 namespace FamousFacesOfTheIliacBay
 {
@@ -70,12 +71,20 @@ namespace FamousFacesOfTheIliacBay
             go.AddComponent<FamousFacesOfTheIliacBayMod>();
         }
 
-        void Awake()
+        void Start()
         {
             Debug.Log("Begin mod init: FamousFacesOfTheIliacBay");
 
             SaveLoadManager.OnLoad += SaveLoadManager_OnLoad;
             StartGameBehaviour.OnStartGame += StartGameBehaviour_OnStartGame;
+
+            RDBLayout.NPCFlatArchives.Add(1200);
+
+            // Add DET archives too, but make sure they're not already there
+
+            // Named/Unique NPCs
+            if (!RDBLayout.NPCFlatArchives.Contains(1020))
+                RDBLayout.NPCFlatArchives.Add(1020);
 
             mod.IsReady = true;
             Debug.Log("Finished mod init: FamousFacesOfTheIliacBay");

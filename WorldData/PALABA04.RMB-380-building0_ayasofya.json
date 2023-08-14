@@ -1207,7 +1207,7 @@
             ],
             "BlockPeopleRecords": [
                 {
-                    "Position": 0,
+                    "Position": 2770,
                     "XPos": -272,
                     "YPos": -129,
                     "ZPos": -336,
@@ -1217,27 +1217,17 @@
                     "Flags": 1
                 },
                 {
-                    "Position": 1,
-                    "XPos": -56,
+                    "Position": 2771,
+                    "XPos": 167,
                     "YPos": -130,
-                    "ZPos": -48,
+                    "ZPos": 66,
                     "TextureArchive": 183,
                     "TextureRecord": 7,
                     "FactionID": 852,
                     "Flags": 9
                 },
                 {
-                    "Position": 2,
-                    "XPos": 256,
-                    "YPos": -129,
-                    "ZPos": -72,
-                    "TextureArchive": 184,
-                    "TextureRecord": 5,
-                    "FactionID": 853,
-                    "Flags": 41
-                },
-                {
-                    "Position": 3,
+                    "Position": 2772,
                     "XPos": 32,
                     "YPos": -129,
                     "ZPos": -80,
@@ -1247,37 +1237,7 @@
                     "Flags": 9
                 },
                 {
-                    "Position": 4,
-                    "XPos": -40,
-                    "YPos": -129,
-                    "ZPos": 160,
-                    "TextureArchive": 182,
-                    "TextureRecord": 16,
-                    "FactionID": 853,
-                    "Flags": 9
-                },
-                {
-                    "Position": 5,
-                    "XPos": -144,
-                    "YPos": -129,
-                    "ZPos": -80,
-                    "TextureArchive": 182,
-                    "TextureRecord": 16,
-                    "FactionID": 853,
-                    "Flags": 9
-                },
-                {
-                    "Position": 6,
-                    "XPos": 272,
-                    "YPos": -130,
-                    "ZPos": 16,
-                    "TextureArchive": 183,
-                    "TextureRecord": 4,
-                    "FactionID": 853,
-                    "Flags": 9
-                },
-                {
-                    "Position": 7,
+                    "Position": 2773,
                     "XPos": -224,
                     "YPos": -129,
                     "ZPos": -32,
@@ -1285,6 +1245,46 @@
                     "TextureRecord": 18,
                     "FactionID": 853,
                     "Flags": 41
+                },
+                {
+                    "Position": 2774,
+                    "XPos": 271,
+                    "YPos": -130,
+                    "ZPos": -82,
+                    "TextureArchive": 1200,
+                    "TextureRecord": 3,
+                    "FactionID": 853,
+                    "Flags": 34
+                },
+                {
+                    "Position": 2775,
+                    "XPos": 282,
+                    "YPos": -129,
+                    "ZPos": 19,
+                    "TextureArchive": 1200,
+                    "TextureRecord": 10,
+                    "FactionID": 853,
+                    "Flags": 9
+                },
+                {
+                    "Position": 2776,
+                    "XPos": -9,
+                    "YPos": -131,
+                    "ZPos": 175,
+                    "TextureArchive": 1200,
+                    "TextureRecord": 4,
+                    "FactionID": 853,
+                    "Flags": 9
+                },
+                {
+                    "Position": 2777,
+                    "XPos": -149,
+                    "YPos": -130,
+                    "ZPos": -74,
+                    "TextureArchive": 182,
+                    "TextureRecord": 20,
+                    "FactionID": 853,
+                    "Flags": 9
                 }
             ],
             "BlockDoorRecords": [
