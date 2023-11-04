@@ -84,7 +84,7 @@
                     "XPos": 321,
                     "YPos": -489,
                     "ZPos": -319,
-                    "XScale": 0.4399997,
+                    "XScale": 0.4399996,
                     "XRotation": 0,
                     "YRotation": -511,
                     "ZRotation": 0
@@ -118,7 +118,7 @@
                     "XPos": -320,
                     "YPos": -489,
                     "ZPos": -319,
-                    "XScale": 0.4399997,
+                    "XScale": 0.4399996,
                     "XRotation": 0,
                     "YRotation": -511,
                     "ZRotation": 0
@@ -152,7 +152,7 @@
                     "XPos": -320,
                     "YPos": -489,
                     "ZPos": 318,
-                    "XScale": 0.4399997,
+                    "XScale": 0.4399996,
                     "XRotation": 0,
                     "YRotation": -511,
                     "ZRotation": 0
@@ -186,7 +186,7 @@
                     "XPos": 320,
                     "YPos": -489,
                     "ZPos": 318,
-                    "XScale": 0.4399997,
+                    "XScale": 0.4399996,
                     "XRotation": 0,
                     "YRotation": -511,
                     "ZRotation": 0
@@ -5611,7 +5611,7 @@
                     "XPos": -348,
                     "YPos": -71,
                     "ZPos": -456,
-                    "YScale": 0.699998,
+                    "YScale": 0.6999979,
                     "XRotation": -1536,
                     "YRotation": -1024,
                     "ZRotation": 0
@@ -5623,7 +5623,7 @@
                     "XPos": -424,
                     "YPos": -71,
                     "ZPos": -456,
-                    "YScale": 0.699998,
+                    "YScale": 0.6999979,
                     "XRotation": -1536,
                     "YRotation": -1024,
                     "ZRotation": 0
@@ -6577,7 +6577,7 @@
                     "XPos": 293,
                     "YPos": -71,
                     "ZPos": 353,
-                    "YScale": 0.699998,
+                    "YScale": 0.6999979,
                     "XRotation": -1536,
                     "YRotation": -1024,
                     "ZRotation": 0
@@ -6589,7 +6589,7 @@
                     "XPos": 217,
                     "YPos": -71,
                     "ZPos": 353,
-                    "YScale": 0.699998,
+                    "YScale": 0.6999979,
                     "XRotation": -1536,
                     "YRotation": -1024,
                     "ZRotation": 0
@@ -6779,9 +6779,9 @@
                     "XPos": -162,
                     "YPos": -204,
                     "ZPos": 163,
-                    "XScale": 0.5999999,
+                    "XScale": 0.5999998,
                     "YScale": 0.6,
-                    "ZScale": 0.5999999,
+                    "ZScale": 0.5999998,
                     "XRotation": 0,
                     "YRotation": -1536,
                     "ZRotation": 0
@@ -9180,7 +9180,7 @@
                     "XPos": 302,
                     "YPos": 90,
                     "ZPos": 162,
-                    "XScale": 0.5299987,
+                    "XScale": 0.5299986,
                     "XRotation": 0,
                     "YRotation": -512,
                     "ZRotation": 0
@@ -9192,7 +9192,7 @@
                     "XPos": 268,
                     "YPos": 90,
                     "ZPos": 162,
-                    "XScale": 0.5299987,
+                    "XScale": 0.5299986,
                     "XRotation": 0,
                     "YRotation": -512,
                     "ZRotation": 0
@@ -10009,7 +10009,7 @@
                     "XPos": -322,
                     "YPos": -256,
                     "ZPos": -385,
-                    "YScale": 0.9199997,
+                    "YScale": 0.9199996,
                     "XRotation": -512,
                     "YRotation": -512,
                     "ZRotation": 0
@@ -10514,7 +10514,7 @@
                     "XPos": 378,
                     "YPos": -185,
                     "ZPos": 306,
-                    "YScale": 0.9499998,
+                    "YScale": 0.9499997,
                     "XRotation": -1536,
                     "YRotation": -512,
                     "ZRotation": 0
@@ -12964,26 +12964,6 @@
                     "XPos": -409,
                     "YPos": 125,
                     "ZPos": 320,
-                    "TextureArchive": 199,
-                    "TextureRecord": 11,
-                    "FactionID": 0,
-                    "Flags": 0
-                },
-                {
-                    "Position": 0,
-                    "XPos": -458,
-                    "YPos": 233,
-                    "ZPos": 288,
-                    "TextureArchive": 199,
-                    "TextureRecord": 18,
-                    "FactionID": 0,
-                    "Flags": 0
-                },
-                {
-                    "Position": 0,
-                    "XPos": -355,
-                    "YPos": 253,
-                    "ZPos": 250,
                     "TextureArchive": 199,
                     "TextureRecord": 11,
                     "FactionID": 0,

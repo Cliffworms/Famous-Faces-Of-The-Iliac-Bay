@@ -9543,7 +9543,7 @@
                     "XPos": 526,
                     "YPos": -302,
                     "ZPos": -482,
-                    "XScale": 0.5799987,
+                    "XScale": 0.5799985,
                     "YScale": 0.69,
                     "XRotation": 0,
                     "YRotation": -1536,
@@ -11282,10 +11282,10 @@
                 {
                     "Position": 0,
                     "XPos": -375,
-                    "YPos": 0,
+                    "YPos": -2,
                     "ZPos": -28,
                     "TextureArchive": 97,
-                    "TextureRecord": 11,
+                    "TextureRecord": 5,
                     "FactionID": 0,
                     "Flags": 0
                 },
@@ -12645,10 +12645,10 @@
                 {
                     "Position": 3096,
                     "XPos": 21,
-                    "YPos": 0,
+                    "YPos": -2,
                     "ZPos": 348,
-                    "TextureArchive": 197,
-                    "TextureRecord": 4,
+                    "TextureArchive": 182,
+                    "TextureRecord": 15,
                     "FactionID": 852,
                     "Flags": 0
                 },

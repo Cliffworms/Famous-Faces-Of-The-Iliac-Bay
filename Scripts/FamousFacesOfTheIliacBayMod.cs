@@ -58,6 +58,7 @@ namespace FamousFacesOfTheIliacBay
         private const string variantBergama = "_bergama";
         private const string variantWrothgaria = "_wrothgaria";
         private const string variantAntiphyllos = "_antiphyllos";
+        private const string variantKoegria = "_koegria";
 
 
 
@@ -405,7 +406,13 @@ namespace FamousFacesOfTheIliacBay
             {
                 int locDragontail = WorldDataReplacement.MakeLocationKey(1, 3);
                 WorldDataVariants.SetBuildingVariant("TVRNAS05.RMB", 0, variantDragontail, locDragontail);
-            }                     
+            }    
+            // Koegria (68) in region 35
+            if (WorldDataVariants.GetBuildingVariant(35, 68, "PALAAA01.RMB", 0) == null)
+            {
+                int locKoegria = WorldDataReplacement.MakeLocationKey(35, 68);
+                WorldDataVariants.SetBuildingVariant("PALAAA01.RMB", 0, variantKoegria, locKoegria);
+            }                               
         }
         
     }
