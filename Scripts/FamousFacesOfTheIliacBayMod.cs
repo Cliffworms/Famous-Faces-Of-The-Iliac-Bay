@@ -17,18 +17,17 @@ namespace FamousFacesOfTheIliacBay
     public class FamousFacesOfTheIliacBayMod : MonoBehaviour
     {
         private const string variantLainlyn = "_lainlyn";
-        private const string variantAnticlere = "_anticlere";
         private const string variantYkalon = "_ykalon";
         private const string variantGlenpoint = "_glenpoint";
         private const string variantGraymore = "_graymore";
         private const string variantBubissidata = "_bubissidata";
         private const string variantRipfort = "_ripfort";
         private const string variantHebu = "_hebu";
+        private const string variantKambria = "_kambria";
         private const string variantNorthmoor = "_northmoor";
         private const string variantDaenia = "_daenia";
         private const string variantEphesus = "_ephesus";
         private const string variantIlessanHills = "_ilessanhills";
-        private const string variantKambria = "_kambria";
         private const string variantKozanset = "_kozanset";
         private const string variantMenevia = "_menevia";
         private const string variantMournoth = "_mournoth";
@@ -116,16 +115,7 @@ namespace FamousFacesOfTheIliacBay
             {
                 int locAbibonGora = WorldDataReplacement.MakeLocationKey(43, 78);
                 WorldDataVariants.SetBuildingVariant("PALAGA01.RMB", 14, variantAbibonGora, locAbibonGora);
-            }                                
-
-            // Anticlere (600) in region 21
-            if (WorldDataVariants.GetBuildingVariant(21, 600, "PALAAA02.RMB", 0) == null)
-            {
-                int locAnticlere = WorldDataReplacement.MakeLocationKey(21, 600);
-                WorldDataVariants.SetBuildingVariant("PALAAA02.RMB", 0, variantAnticlere, locAnticlere);
-                WorldDataVariants.SetBuildingVariant("THIEAL00.RMB", 16, variantAnticlere, locAnticlere);
-                WorldDataVariants.SetBuildingVariant("TEMPAAC0.RMB", 21, variantAnticlere, locAnticlere);
-            }
+            }                                        
 
             // Bubissidata (2) in region 20
             if (WorldDataVariants.GetBuildingVariant(20, 2, "THIEAL00.RMB", 16) == null)
@@ -310,10 +300,10 @@ namespace FamousFacesOfTheIliacBay
             }   
 
             // Kambria (70) in region 37
-            if (WorldDataVariants.GetBuildingVariant(37, 70, "PALAAA00.RMB", 0) == null)
+            if (WorldDataVariants.GetBlockVariant("PALAAA00.RMB") == null)
             {
                 int locKambria = WorldDataReplacement.MakeLocationKey(37, 70);
-                WorldDataVariants.SetBuildingVariant("PALAAA00.RMB", 0, variantKambria, locKambria);
+                WorldDataVariants.SetBlockVariant("PALAAA00.RMB", variantKambria, locKambria);
             }      
 
             // Ilessan Hills (344) in region 60
