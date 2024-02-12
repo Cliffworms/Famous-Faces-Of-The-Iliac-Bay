@@ -12205,16 +12205,6 @@
                 },
                 {
                     "Position": 0,
-                    "XPos": 98,
-                    "YPos": -3,
-                    "ZPos": 144,
-                    "TextureArchive": 1200,
-                    "TextureRecord": 19,
-                    "FactionID": 853,
-                    "Flags": 32
-                },
-                {
-                    "Position": 0,
                     "XPos": -47,
                     "YPos": -30,
                     "ZPos": 315,
@@ -13028,7 +13018,17 @@
                     "YRotation": -1536,
                     "OpenRotation": 90,
                     "DoorModelIndex": 0
-                }
+                },
+                {
+                    "Position": 15,
+                    "XPos": 98,
+                    "YPos": -3,
+                    "ZPos": 144,
+                    "TextureArchive": 1200,
+                    "TextureRecord": 19,
+                    "FactionID": 853,
+                    "Flags": 32
+                }                
             ]
         }
     },

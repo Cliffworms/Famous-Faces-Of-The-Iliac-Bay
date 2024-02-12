@@ -1,7 +1,7 @@
 {
     "Position": 50000148    ,
     "Index": 0,
-    "Name": "PALAAA02_Anticlere.RMB",
+    "Name": "PALAAA02.RMB",
     "Type": "Rmb",
     "RmbBlock": {
         "FldHeader": {
@@ -6632,7 +6632,7 @@
                 0,
                 0
             ],
-            "Name": "PALAAA02_Anticlere.RMB",
+            "Name": "PALAAA02.RMB",
             "OtherNames": [
                 "NHAUS009.HS2",
                 "JHAUS038.HS2",

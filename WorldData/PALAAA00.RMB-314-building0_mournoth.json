@@ -7833,7 +7833,7 @@
                     "XPos": 308,
                     "YPos": -151,
                     "ZPos": -47,
-                    "XScale": 0.6299979,
+                    "XScale": 0.6299978,
                     "XRotation": 0,
                     "YRotation": -512,
                     "ZRotation": 0
@@ -13382,7 +13382,7 @@
                     "ZPos": 69,
                     "TextureArchive": 1016,
                     "TextureRecord": 0,
-                    "FactionID": 411,
+                    "FactionID": 590,
                     "Flags": 0
                 },
                 {
@@ -13418,7 +13418,7 @@
                 {
                     "Position": 4576,
                     "XPos": 300,
-                    "YPos": -131,
+                    "YPos": -132,
                     "ZPos": 5,
                     "TextureArchive": 1200,
                     "TextureRecord": 6,

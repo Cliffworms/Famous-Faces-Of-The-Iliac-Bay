@@ -6127,7 +6127,7 @@
                     "XPos": -348,
                     "YPos": -71,
                     "ZPos": -456,
-                    "YScale": 0.6999981,
+                    "YScale": 0.699998,
                     "XRotation": -1536,
                     "YRotation": -1024,
                     "ZRotation": 0
@@ -6139,7 +6139,7 @@
                     "XPos": -424,
                     "YPos": -71,
                     "ZPos": -456,
-                    "YScale": 0.6999981,
+                    "YScale": 0.699998,
                     "XRotation": -1536,
                     "YRotation": -1024,
                     "ZRotation": 0
@@ -7115,7 +7115,7 @@
                     "XPos": 293,
                     "YPos": -71,
                     "ZPos": 353,
-                    "YScale": 0.6999981,
+                    "YScale": 0.699998,
                     "XRotation": -1536,
                     "YRotation": -1024,
                     "ZRotation": 0
@@ -7127,7 +7127,7 @@
                     "XPos": 217,
                     "YPos": -71,
                     "ZPos": 353,
-                    "YScale": 0.6999981,
+                    "YScale": 0.699998,
                     "XRotation": -1536,
                     "YRotation": -1024,
                     "ZRotation": 0
@@ -9798,7 +9798,7 @@
                     "XPos": 302,
                     "YPos": 90,
                     "ZPos": 162,
-                    "XScale": 0.5299988,
+                    "XScale": 0.5299987,
                     "XRotation": 0,
                     "YRotation": -512,
                     "ZRotation": 0
@@ -9810,7 +9810,7 @@
                     "XPos": 268,
                     "YPos": 90,
                     "ZPos": 162,
-                    "XScale": 0.5299988,
+                    "XScale": 0.5299987,
                     "XRotation": 0,
                     "YRotation": -512,
                     "ZRotation": 0
@@ -13424,7 +13424,7 @@
                     "ZPos": 89,
                     "TextureArchive": 184,
                     "TextureRecord": 4,
-                    "FactionID": 0,
+                    "FactionID": 852,
                     "Flags": 0
                 },
                 {
@@ -13554,7 +13554,7 @@
                     "ZPos": 135,
                     "TextureArchive": 1200,
                     "TextureRecord": 22,
-                    "FactionID": 853,
+                    "FactionID": 584,
                     "Flags": 0
                 },
                 {
@@ -13564,7 +13564,7 @@
                     "ZPos": 139,
                     "TextureArchive": 1200,
                     "TextureRecord": 23,
-                    "FactionID": 853,
+                    "FactionID": 584,
                     "Flags": 0
                 },
                 {
@@ -13574,7 +13574,7 @@
                     "ZPos": 133,
                     "TextureArchive": 1200,
                     "TextureRecord": 24,
-                    "FactionID": 853,
+                    "FactionID": 584,
                     "Flags": 0
                 }
             ],

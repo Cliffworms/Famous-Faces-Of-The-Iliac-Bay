@@ -12055,16 +12055,6 @@
                 },
                 {
                     "Position": 0,
-                    "XPos": 32,
-                    "YPos": -31,
-                    "ZPos": 277,
-                    "TextureArchive": 1200,
-                    "TextureRecord": 0,
-                    "FactionID": 400,
-                    "Flags": 32
-                },
-                {
-                    "Position": 0,
                     "XPos": -6,
                     "YPos": -131,
                     "ZPos": -345,
@@ -12761,7 +12751,17 @@
                     "TextureRecord": 18,
                     "FactionID": 42,
                     "Flags": 0
-                }
+                },
+                {
+                    "Position": 0,
+                    "XPos": 32,
+                    "YPos": -31,
+                    "ZPos": 277,
+                    "TextureArchive": 1200,
+                    "TextureRecord": 0,
+                    "FactionID": 400,
+                    "Flags": 32
+                }                
             ],
             "BlockDoorRecords": [
                 {

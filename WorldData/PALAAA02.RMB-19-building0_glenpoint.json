@@ -6664,7 +6664,7 @@
                     "XPos": 181,
                     "YPos": -126,
                     "ZPos": -244,
-                    "YScale": 0.6999966,
+                    "YScale": 0.6999965,
                     "XRotation": -1536,
                     "YRotation": 0,
                     "ZRotation": 0
@@ -7479,7 +7479,7 @@
                     "XPos": 384,
                     "YPos": 3,
                     "ZPos": -382,
-                    "XScale": 0.8899967,
+                    "XScale": 0.8899966,
                     "XRotation": -1536,
                     "YRotation": -512,
                     "ZRotation": 0
@@ -7491,7 +7491,7 @@
                     "XPos": 256,
                     "YPos": 3,
                     "ZPos": -382,
-                    "XScale": 0.8899967,
+                    "XScale": 0.8899966,
                     "XRotation": -1536,
                     "YRotation": -512,
                     "ZRotation": 0
@@ -12841,11 +12841,11 @@
                 },
                 {
                     "Position": 3228,
-                    "XPos": -168,
-                    "YPos": -130,
+                    "XPos": -153,
+                    "YPos": -129,
                     "ZPos": 332,
-                    "TextureArchive": 183,
-                    "TextureRecord": 16,
+                    "TextureArchive": 180,
+                    "TextureRecord": 3,
                     "FactionID": 375,
                     "Flags": 0
                 },

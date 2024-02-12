@@ -57,7 +57,7 @@ namespace FamousFacesOfTheIliacBay
         private const string variantBergama = "_bergama";
         private const string variantWrothgaria = "_wrothgaria";
         private const string variantAntiphyllos = "_antiphyllos";
-        private const string variantKoegria = "_koegria";
+        private const string variantAnticlere = "_anticlere";
 
 
 
@@ -104,305 +104,312 @@ namespace FamousFacesOfTheIliacBay
         void InitVariants()
         {
             // Hebu (161) in region 22
-            if (WorldDataVariants.GetBuildingVariant(22, 161, "TEMPAAH0.RMB", 13) == null)
+            if (WorldDataVariants.GetBuildingVariant(22, 161, "TEMPAAH0.RMB", 13) == WorldDataVariants.NoVariant)
             {
                 int locHebu = WorldDataReplacement.MakeLocationKey(22, 161);
                 WorldDataVariants.SetBuildingVariant("TEMPAAH0.RMB", 13, variantHebu, locHebu);
             }  
 
+            // Anticlere Palace (600) in region 21
+            if (WorldDataVariants.GetBlockVariant("PALAAA02.RMB") == WorldDataVariants.NoVariant)
+            {
+                int locAnticlere = WorldDataReplacement.MakeLocationKey(21, 600);
+                WorldDataVariants.SetBlockVariant("PALAAA02.RMB", variantAnticlere, locAnticlere);
+            }      
+
+            // Anticlere Thieves Guild (600) in region 21
+            if (WorldDataVariants.GetBuildingVariant(21, 600, "THIEAL00.RMB", 0) == WorldDataVariants.NoVariant)
+            {
+                int locAnticlere = WorldDataReplacement.MakeLocationKey(21, 600);
+                WorldDataVariants.SetBuildingVariant("THIEAL00.RMB", 0, variantAnticlere, locAnticlere);
+            }      
+
             // Abibon-gora (78) in region 43
-            if (WorldDataVariants.GetBuildingVariant(43, 78, "PALAGA01.RMB", 14) == null)
+            if (WorldDataVariants.GetBlockVariant("PALAGA01.RMB") == WorldDataVariants.NoVariant)
             {
                 int locAbibonGora = WorldDataReplacement.MakeLocationKey(43, 78);
-                WorldDataVariants.SetBuildingVariant("PALAGA01.RMB", 14, variantAbibonGora, locAbibonGora);
+                WorldDataVariants.SetBlockVariant("PALAGA01.RMB", variantAbibonGora, locAbibonGora);
             }                                        
 
             // Bubissidata (2) in region 20
-            if (WorldDataVariants.GetBuildingVariant(20, 2, "THIEAL00.RMB", 16) == null)
+            if (WorldDataVariants.GetBuildingVariant(20, 2, "THIEAL00.RMB", 16) == WorldDataVariants.NoVariant)
             {
                 int locBubissidata = WorldDataReplacement.MakeLocationKey(20, 2);
                 WorldDataVariants.SetBuildingVariant("THIEAL00.RMB", 16, variantBubissidata, locBubissidata);
             }
 
             // Pothago (6) in region 45
-            if (WorldDataVariants.GetBuildingVariant(45, 6, "PALAGA01.RMB", 14) == null)
+            if (WorldDataVariants.GetBlockVariant("PALAGA01.RMB") == WorldDataVariants.NoVariant)
             {
                 int locPothago = WorldDataReplacement.MakeLocationKey(45, 6);
-                WorldDataVariants.SetBuildingVariant("PALAGA01.RMB", 14, variantPothago, locPothago);
+                WorldDataVariants.SetBlockVariant("PALAGA01.RMB", variantPothago, locPothago);
             } 
 
             // Kairou (97) in region 44
-            if (WorldDataVariants.GetBuildingVariant(44, 97, "PALAGA04.RMB", 0) == null)
+            if (WorldDataVariants.GetBlockVariant("PALAGA04.RMB") == WorldDataVariants.NoVariant)
             {
                 int locKairou = WorldDataReplacement.MakeLocationKey(44, 97);
-                WorldDataVariants.SetBuildingVariant("PALAGA04.RMB", 0, variantKairou, locKairou);
+                WorldDataVariants.SetBlockVariant("PALAGA04.RMB", variantKairou, locKairou);
             } 
 
             // Ayasofya (128) in region 47
-            if (WorldDataVariants.GetBuildingVariant(47, 128, "PALABA04.RMB", 0) == null)
+            if (WorldDataVariants.GetBlockVariant("PALABA04.RMB") == WorldDataVariants.NoVariant)
             {
                 int locAyasofya = WorldDataReplacement.MakeLocationKey(47, 128);
-                WorldDataVariants.SetBuildingVariant("PALABA04.RMB", 0, variantAyasofya, locAyasofya);
+                WorldDataVariants.SetBlockVariant("PALABA04.RMB", variantAyasofya, locAyasofya);
             }   
 
             // Antiphyllos (39) in region 55
-            if (WorldDataVariants.GetBuildingVariant(55, 39, "PALABA02.RMB", 0) == null)
+            if (WorldDataVariants.GetBlockVariant("PALABA02.RMB") == WorldDataVariants.NoVariant)
             {
                 int locAntiphyllos = WorldDataReplacement.MakeLocationKey(55, 39);
-                WorldDataVariants.SetBuildingVariant("PALABA02.RMB", 0, variantAntiphyllos, locAntiphyllos);
+                WorldDataVariants.SetBlockVariant("PALABA02.RMB", variantAntiphyllos, locAntiphyllos);
             }    
 
             // Myrkwasa (57) in region 46
-            if (WorldDataVariants.GetBuildingVariant(46, 57, "PALAGA03.RMB", 0) == null)
+            if (WorldDataVariants.GetBlockVariant("PALAGA03.RMB") == WorldDataVariants.NoVariant)
             {
                 int locMyrkwasa = WorldDataReplacement.MakeLocationKey(46, 57);
-                WorldDataVariants.SetBuildingVariant("PALAGA03.RMB", 0, variantMyrkwasa, locMyrkwasa);
+                WorldDataVariants.SetBlockVariant("PALAGA03.RMB", variantMyrkwasa, locMyrkwasa);
             }                         
 
             // Alik'ra (165) in region 0
-            if (WorldDataVariants.GetBuildingVariant(0, 165, "PALABA03.RMB", 0) == null)
+            if (WorldDataVariants.GetBlockVariant("PALABA03.RMB") == WorldDataVariants.NoVariant)
             {
                 int locAlikr = WorldDataReplacement.MakeLocationKey(0, 165);
-                WorldDataVariants.SetBuildingVariant("PALABA03.RMB", 0, variantAlikr, locAlikr);
+                WorldDataVariants.SetBlockVariant("PALABA03.RMB", variantAlikr, locAlikr);
             }      
 
             // Bergama (41) in region 56
-            if (WorldDataVariants.GetBuildingVariant(56, 41, "PALABA00.RMB", 0) == null)
+            if (WorldDataVariants.GetBlockVariant("PALABA00.RMB") == WorldDataVariants.NoVariant)
             {
                 int locBergama = WorldDataReplacement.MakeLocationKey(56, 41);
-                WorldDataVariants.SetBuildingVariant("PALABA00.RMB", 0, variantBergama, locBergama);
+                WorldDataVariants.SetBlockVariant("PALABA00.RMB", variantBergama, locBergama);
             }    
 
             // Tulune (59) in region 58
-            if (WorldDataVariants.GetBuildingVariant(58, 59, "PALAAA02.RMB", 0) == null)
+            if (WorldDataVariants.GetBlockVariant("PALAAA02.RMB") == WorldDataVariants.NoVariant)
             {
                 int locTulune = WorldDataReplacement.MakeLocationKey(58, 59);
-                WorldDataVariants.SetBuildingVariant("PALAAA02.RMB", 0, variantTulune, locTulune);
+                WorldDataVariants.SetBlockVariant("PALAAA02.RMB", variantTulune, locTulune);
             }  
 
             // Totambu (633) in region 51
-            if (WorldDataVariants.GetBuildingVariant(51, 633, "PALAAA02.RMB", 0) == null)
+            if (WorldDataVariants.GetBlockVariant("PALAAA02.RMB") == WorldDataVariants.NoVariant)
             {
                 int locTotambu = WorldDataReplacement.MakeLocationKey(51, 633);
-                WorldDataVariants.SetBuildingVariant("PALAAA02.RMB", 0, variantTotambu, locTotambu);
+                WorldDataVariants.SetBlockVariant("PALAAA02.RMB", variantTotambu, locTotambu);
             }  
 
             // Tigonus (54) in region 48
-            if (WorldDataVariants.GetBuildingVariant(48, 54, "PALAAA02.RMB", 0) == null)
+            if (WorldDataVariants.GetBlockVariant("PALAAA02.RMB") == WorldDataVariants.NoVariant)
             {
                 int locTigonus = WorldDataReplacement.MakeLocationKey(48, 54);
-                WorldDataVariants.SetBuildingVariant("PALAAA02.RMB", 0, variantTigonus, locTigonus);
+                WorldDataVariants.SetBlockVariant("PALAAA02.RMB", variantTigonus, locTigonus);
             } 
 
             // Shalgora (161) in region 42
-            if (WorldDataVariants.GetBuildingVariant(42, 161, "PALAAA02.RMB", 0) == null)
+            if (WorldDataVariants.GetBlockVariant("PALAAA02.RMB") == WorldDataVariants.NoVariant)
             {
                 int locShalgora = WorldDataReplacement.MakeLocationKey(42, 161);
-                WorldDataVariants.SetBuildingVariant("PALAAA02.RMB", 0, variantShalgora, locShalgora);
+                WorldDataVariants.SetBlockVariant("PALAAA02.RMB", variantShalgora, locShalgora);
             }  
 
             // Glenumbra (94) in region 59
-            if (WorldDataVariants.GetBuildingVariant(59, 94, "PALAAA02.RMB", 0) == null)
+            if (WorldDataVariants.GetBlockVariant("PALAAA02.RMB") == WorldDataVariants.NoVariant)
             {
                 int locGlenumbra = WorldDataReplacement.MakeLocationKey(59, 94);
-                WorldDataVariants.SetBuildingVariant("PALAAA02.RMB", 0, variantGlenumbra, locGlenumbra);
+                WorldDataVariants.SetBlockVariant("PALAAA02.RMB", variantGlenumbra, locGlenumbra);
             }  
 
             // Gavaudon (24) in region 57
-            if (WorldDataVariants.GetBuildingVariant(57, 24, "PALAAA02.RMB", 0) == null)
+            if (WorldDataVariants.GetBlockVariant("PALAAA02.RMB") == WorldDataVariants.NoVariant)
             {
                 int locGavaudon = WorldDataReplacement.MakeLocationKey(57, 24);
-                WorldDataVariants.SetBuildingVariant("PALAAA02.RMB", 0, variantGavaudon, locGavaudon);
+                WorldDataVariants.SetBlockVariant("PALAAA02.RMB", variantGavaudon, locGavaudon);
             }      
 
             // Dwynnen (522) in region 5
-            if (WorldDataVariants.GetBuildingVariant(5, 522, "PALAAA02.RMB", 0) == null)
+            if (WorldDataVariants.GetBlockVariant("PALAAA02.RMB") == WorldDataVariants.NoVariant)
             {
                 int locDwynnen = WorldDataReplacement.MakeLocationKey(5, 522);
-                WorldDataVariants.SetBuildingVariant("PALAAA02.RMB", 0, variantDwynnen, locDwynnen);
+                WorldDataVariants.SetBlockVariant("PALAAA02.RMB", variantDwynnen, locDwynnen);
             } 
 
             // Alcaire (57) in region 34
-            if (WorldDataVariants.GetBuildingVariant(34, 57, "PALAAA02.RMB", 0) == null)
+            if (WorldDataVariants.GetBlockVariant("PALAAA02.RMB") == WorldDataVariants.NoVariant)
             {
                 int locAlcaire = WorldDataReplacement.MakeLocationKey(34, 57);
-                WorldDataVariants.SetBuildingVariant("PALAAA02.RMB", 0, variantAlcaire, locAlcaire);
+                WorldDataVariants.SetBlockVariant("PALAAA02.RMB", variantAlcaire, locAlcaire);
             }  
 
             // Satakalaam (90) in region 50
-            if (WorldDataVariants.GetBuildingVariant(50, 90, "PALAAA01.RMB", 0) == null)
+            if (WorldDataVariants.GetBlockVariant("PALAAA01.RMB") == WorldDataVariants.NoVariant)
             {
                 int locSatakalaam = WorldDataReplacement.MakeLocationKey(50, 90);
-                WorldDataVariants.SetBuildingVariant("PALAAA01.RMB", 0, variantSatakalaam, locSatakalaam);
+                WorldDataVariants.SetBlockVariant("PALAAA01.RMB", variantSatakalaam, locSatakalaam);
             }  
 
             //  Wrothgaria (297) in region 16
-            if (WorldDataVariants.GetBuildingVariant(16, 297, "PALAAA01.RMB", 0) == null)
+            if (WorldDataVariants.GetBlockVariant("PALAAA01.RMB") == WorldDataVariants.NoVariant)
             {
                 int locWrothgaria = WorldDataReplacement.MakeLocationKey(16, 297);
-                WorldDataVariants.SetBuildingVariant("PALAAA01.RMB", 0, variantWrothgaria, locWrothgaria);
+                WorldDataVariants.SetBlockVariant("PALAAA01.RMB", variantWrothgaria, locWrothgaria);
             }              
 
             // Bhoriane (115) in region 36
-            if (WorldDataVariants.GetBuildingVariant(36, 115, "PALAAA01.RMB", 0) == null)
+            if (WorldDataVariants.GetBlockVariant("PALAAA01.RMB") == WorldDataVariants.NoVariant)
             {
                 int locBhoriane = WorldDataReplacement.MakeLocationKey(36, 115);
-                WorldDataVariants.SetBuildingVariant("PALAAA01.RMB", 0, variantBhoriane, locBhoriane);
+                WorldDataVariants.SetBlockVariant("PALAAA01.RMB", variantBhoriane, locBhoriane);
             }      
 
             // Urvaius (263) in region 39
-            if (WorldDataVariants.GetBuildingVariant(39, 263, "PALAAA00.RMB", 0) == null)
+            if (WorldDataVariants.GetBlockVariant("PALAAA00.RMB") == WorldDataVariants.NoVariant)
             {
                 int locUrvaius = WorldDataReplacement.MakeLocationKey(39, 263);
-                WorldDataVariants.SetBuildingVariant("PALAAA00.RMB", 0, variantUrvaius, locUrvaius);
+                WorldDataVariants.SetBlockVariant("PALAAA00.RMB", variantUrvaius, locUrvaius);
             }
 
             // Santaki (26) in region 54
-            if (WorldDataVariants.GetBuildingVariant(54, 26, "PALAAA00.RMB", 0) == null)
+            if (WorldDataVariants.GetBlockVariant("PALAAA00.RMB") == WorldDataVariants.NoVariant)
             {
                 int locSantaki = WorldDataReplacement.MakeLocationKey(54, 26);
-                WorldDataVariants.SetBuildingVariant("PALAAA00.RMB", 0, variantSantaki, locSantaki);
+                WorldDataVariants.SetBlockVariant("PALAAA00.RMB", variantSantaki, locSantaki);
             }  
 
             // Dragontail (853) in region 1
-            if (WorldDataVariants.GetBuildingVariant(1, 853, "PALAAA00.RMB", 0) == null)
+            if (WorldDataVariants.GetBlockVariant("PALAAA00.RMB") == WorldDataVariants.NoVariant)
             {
                 int locDragontail = WorldDataReplacement.MakeLocationKey(1, 853);
-                WorldDataVariants.SetBuildingVariant("PALAAA00.RMB", 0, variantDragontail, locDragontail);
-            }                  
+                WorldDataVariants.SetBlockVariant("PALAAA00.RMB", variantDragontail, locDragontail);
+            }                   
 
             // Phrygias (167) in region 38
-            if (WorldDataVariants.GetBuildingVariant(38, 167, "PALAAA00.RMB", 0) == null)
+            if (WorldDataVariants.GetBlockVariant("PALAAA00.RMB") == WorldDataVariants.NoVariant)
             {
                 int locPhrygias = WorldDataReplacement.MakeLocationKey(38, 167);
-                WorldDataVariants.SetBuildingVariant("PALAAA00.RMB", 0, variantPhrygias, locPhrygias);
+                WorldDataVariants.SetBlockVariant("PALAAA00.RMB", variantPhrygias, locPhrygias);
             }    
 
             // Mournoth (201) in region 52
-            if (WorldDataVariants.GetBuildingVariant(52, 201, "PALAAA00.RMB", 0) == null)
+            if (WorldDataVariants.GetBlockVariant("PALAAA00.RMB") == WorldDataVariants.NoVariant)
             {
                 int locMournoth = WorldDataReplacement.MakeLocationKey(52, 201);
-                WorldDataVariants.SetBuildingVariant("PALAAA00.RMB", 0, variantMournoth, locMournoth);
+                WorldDataVariants.SetBlockVariant("PALAAA00.RMB", variantMournoth, locMournoth);
             } 
 
             // Menevia (114) in region 33
-            if (WorldDataVariants.GetBuildingVariant(33, 114, "PALAAA00.RMB", 0) == null)
+            if (WorldDataVariants.GetBlockVariant("PALAAA00.RMB") == WorldDataVariants.NoVariant)
             {
                 int locMenevia = WorldDataReplacement.MakeLocationKey(33, 114);
-                WorldDataVariants.SetBuildingVariant("PALAAA00.RMB", 0, variantMenevia, locMenevia);
+                WorldDataVariants.SetBlockVariant("PALAAA00.RMB", variantMenevia, locMenevia);
             }  
 
             // Kozanset (31) in region 49
-            if (WorldDataVariants.GetBuildingVariant(49, 31, "PALAAA00.RMB", 0) == null)
+            if (WorldDataVariants.GetBlockVariant("PALAAA00.RMB") == WorldDataVariants.NoVariant)
             {
                 int locKozanset = WorldDataReplacement.MakeLocationKey(49, 31);
-                WorldDataVariants.SetBuildingVariant("PALAAA00.RMB", 0, variantKozanset, locKozanset);
+                WorldDataVariants.SetBlockVariant("PALAAA00.RMB", variantKozanset, locKozanset);
             }   
 
             // Kambria (70) in region 37
-            if (WorldDataVariants.GetBlockVariant("PALAAA00.RMB") == null)
+            if (WorldDataVariants.GetBlockVariant("PALAAA00.RMB") == WorldDataVariants.NoVariant)
             {
                 int locKambria = WorldDataReplacement.MakeLocationKey(37, 70);
                 WorldDataVariants.SetBlockVariant("PALAAA00.RMB", variantKambria, locKambria);
             }      
 
             // Ilessan Hills (344) in region 60
-            if (WorldDataVariants.GetBuildingVariant(60, 344, "PALAAA01.RMB", 0) == null)
+            if (WorldDataVariants.GetBlockVariant("PALAAA01.RMB") == WorldDataVariants.NoVariant)
             {
                 int locIlessanHills = WorldDataReplacement.MakeLocationKey(60, 344);
-                WorldDataVariants.SetBuildingVariant("PALAAA01.RMB", 0, variantIlessanHills, locIlessanHills);
+                WorldDataVariants.SetBlockVariant("PALAAA01.RMB", variantIlessanHills, locIlessanHills);
             }     
 
             // Lainlyn (103) in region 22
-            if (WorldDataVariants.GetBuildingVariant(22, 103, "PALAAA00.RMB", 0) == null)
+            if (WorldDataVariants.GetBlockVariant("PALAAA00.RMB") == WorldDataVariants.NoVariant)
             {
                 int locLainlyn = WorldDataReplacement.MakeLocationKey(22, 103);
-                WorldDataVariants.SetBuildingVariant("PALAAA00.RMB", 0, variantLainlyn, locLainlyn);
+                WorldDataVariants.SetBlockVariant("PALAAA00.RMB", variantLainlyn, locLainlyn);
             }                  
 
             // Ykalon (357) in region 40
-            if (WorldDataVariants.GetBuildingVariant(40, 357, "PALAAA02.RMB", 0) == null)
+            if (WorldDataVariants.GetBlockVariant("PALAAA02.RMB") == WorldDataVariants.NoVariant)
             {
                 int locYkalon = WorldDataReplacement.MakeLocationKey(40, 357);
-                WorldDataVariants.SetBuildingVariant("PALAAA02.RMB", 0, variantYkalon, locYkalon);
-                WorldDataVariants.SetBuildingVariant("MARKAA01.RMB", 6, variantYkalon, locYkalon);
+                WorldDataVariants.SetBlockVariant("PALAAA02.RMB", variantYkalon, locYkalon);
             }    
 
             // Glenpoint (181) in region 18
-            if (WorldDataVariants.GetBuildingVariant(18, 181, "PALAAA02.RMB", 0) == null)
+            if (WorldDataVariants.GetBlockVariant("PALAAA02.RMB") == WorldDataVariants.NoVariant)
             {
                 int locGlenpoint = WorldDataReplacement.MakeLocationKey(18, 181);
-                WorldDataVariants.SetBuildingVariant("PALAAA02.RMB", 0, variantGlenpoint, locGlenpoint);
+                WorldDataVariants.SetBlockVariant("PALAAA02.RMB", variantGlenpoint, locGlenpoint);
             }   
 
             // Graymore (301) in region 18
-            if (WorldDataVariants.GetBuildingVariant(18, 301, "THIEAM00.RMB", 0) == null)
+            if (WorldDataVariants.GetBuildingVariant(18, 301, "THIEAM00.RMB", 0) == WorldDataVariants.NoVariant)
             {
                 int locGraymore = WorldDataReplacement.MakeLocationKey(18, 301);
                 WorldDataVariants.SetBuildingVariant("THIEAM00.RMB", 0, variantGraymore, locGraymore);
             } 
 
             // Ripfort (410) in region 18
-            if (WorldDataVariants.GetBuildingVariant(18, 410, "THIEAM00.RMB", 0) == null)
+            if (WorldDataVariants.GetBuildingVariant(18, 410, "THIEAM00.RMB", 0) == WorldDataVariants.NoVariant)
             {
                 int locRipfort = WorldDataReplacement.MakeLocationKey(18, 410);
                 WorldDataVariants.SetBuildingVariant("THIEAM00.RMB", 0, variantRipfort, locRipfort);
             }                 
 
             // Northmoor (252) in region 32
-            if (WorldDataVariants.GetBuildingVariant(32, 252, "PALAAA00.RMB", 0) == null)
+            if (WorldDataVariants.GetBlockVariant("PALAAA00.RMB") == WorldDataVariants.NoVariant)
             {
                 int locNorthmoor = WorldDataReplacement.MakeLocationKey(32, 252);
-                WorldDataVariants.SetBuildingVariant("PALAAA00.RMB", 0, variantNorthmoor, locNorthmoor);
+                WorldDataVariants.SetBlockVariant("PALAAA00.RMB", variantNorthmoor, locNorthmoor);
             }       
 
             // Daenia (101) in region 41
-            if (WorldDataVariants.GetBuildingVariant(41, 101, "PALAAA02.RMB", 0) == null)
+            if (WorldDataVariants.GetBlockVariant("PALAAA02.RMB") == WorldDataVariants.NoVariant)
             {
                 int locDaenia = WorldDataReplacement.MakeLocationKey(41, 101);
-                WorldDataVariants.SetBuildingVariant("PALAAA02.RMB", 0, variantDaenia, locDaenia);
+                WorldDataVariants.SetBlockVariant("PALAAA02.RMB", variantDaenia, locDaenia);
             }        
 
             // Ephesus (205) in region 53
-            if (WorldDataVariants.GetBuildingVariant(53, 205, "PALAAA00.RMB", 0) == null)
+            if (WorldDataVariants.GetBlockVariant("PALAAA00.RMB") == WorldDataVariants.NoVariant)
             {
                 int locEphesus = WorldDataReplacement.MakeLocationKey(53, 205);
-                WorldDataVariants.SetBuildingVariant("PALAAA00.RMB", 0, variantEphesus, locEphesus);
+                WorldDataVariants.SetBlockVariant("PALAAA00.RMB", variantEphesus, locEphesus);
             } 
 
             // Merwark Hollow (613) in region 23
-            if (WorldDataVariants.GetBuildingVariant(23, 613, "PALAAA00.RMB", 0) == null)
+            if (WorldDataVariants.GetBlockVariant("PALAAA00.RMB") == WorldDataVariants.NoVariant)
             {
                 int locMerwarkHollow = WorldDataReplacement.MakeLocationKey(23, 613);
-                WorldDataVariants.SetBuildingVariant("PALAAA00.RMB", 0, variantMerwarkHollow, locMerwarkHollow);
+                WorldDataVariants.SetBlockVariant("PALAAA00.RMB", variantMerwarkHollow, locMerwarkHollow);
             }   
 
             // Wayrest (601) in region 23
-            if (WorldDataVariants.GetBuildingVariant(23, 601, "MAGEAA08.RMB", 0) == null)
+            if (WorldDataVariants.GetBuildingVariant(23, 601, "MAGEAA08.RMB", 0) == WorldDataVariants.NoVariant)
             {
                 int locWayrest = WorldDataReplacement.MakeLocationKey(23, 601);
                 WorldDataVariants.SetBuildingVariant("MAGEAA08.RMB", 0, variantWayrest, locWayrest);
             }   
 
             // Daggerfall (1231) in region 17
-            if (WorldDataVariants.GetBuildingVariant(17, 1231, "DARKAA01.RMB", 0) == null)
+            if (WorldDataVariants.GetBuildingVariant(17, 1231, "DARKAA01.RMB", 0) == WorldDataVariants.NoVariant)
             {
                 int locDaggerfall = WorldDataReplacement.MakeLocationKey(17, 1231);
                 WorldDataVariants.SetBuildingVariant("DARKAA01.RMB", 0, variantDaggerfall, locDaggerfall);
             }  
 
             // The Unfortunate Goblin Pub (3) in region 1
-            if (WorldDataVariants.GetBuildingVariant(1, 3, "TVRNAS05.RMB", 0) == null)
+            if (WorldDataVariants.GetBuildingVariant(1, 3, "TVRNAS05.RMB", 0) == WorldDataVariants.NoVariant)
             {
                 int locDragontail = WorldDataReplacement.MakeLocationKey(1, 3);
                 WorldDataVariants.SetBuildingVariant("TVRNAS05.RMB", 0, variantDragontail, locDragontail);
-            }    
-            // Koegria (68) in region 35
-            if (WorldDataVariants.GetBuildingVariant(35, 68, "PALAAA01.RMB", 0) == null)
-            {
-                int locKoegria = WorldDataReplacement.MakeLocationKey(35, 68);
-                WorldDataVariants.SetBuildingVariant("PALAAA01.RMB", 0, variantKoegria, locKoegria);
-            }                               
+            }                         
         }
         
     }
