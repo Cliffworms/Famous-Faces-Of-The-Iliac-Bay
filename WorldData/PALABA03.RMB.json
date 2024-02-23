@@ -6742,7 +6742,7 @@
                             "XPos": 321,
                             "YPos": -369,
                             "ZPos": -506,
-                            "XScale": 0.4399997,
+                            "XScale": 0.4399996,
                             "XRotation": 0,
                             "YRotation": -511,
                             "ZRotation": 0
@@ -6754,7 +6754,7 @@
                             "XPos": -320,
                             "YPos": -370,
                             "ZPos": -506,
-                            "XScale": 0.4399997,
+                            "XScale": 0.4399996,
                             "XRotation": 0,
                             "YRotation": -511,
                             "ZRotation": 0
@@ -6766,7 +6766,7 @@
                             "XPos": -320,
                             "YPos": -369,
                             "ZPos": 506,
-                            "XScale": 0.4399997,
+                            "XScale": 0.4399996,
                             "XRotation": 0,
                             "YRotation": -511,
                             "ZRotation": 0
@@ -6778,7 +6778,7 @@
                             "XPos": 320,
                             "YPos": -369,
                             "ZPos": 506,
-                            "XScale": 0.4399997,
+                            "XScale": 0.4399996,
                             "XRotation": 0,
                             "YRotation": -511,
                             "ZRotation": 0
@@ -12793,7 +12793,7 @@
                             "XPos": -348,
                             "YPos": -71,
                             "ZPos": -456,
-                            "YScale": 0.6999984,
+                            "YScale": 0.6999983,
                             "XRotation": -1536,
                             "YRotation": -1024,
                             "ZRotation": 0
@@ -12805,7 +12805,7 @@
                             "XPos": -424,
                             "YPos": -71,
                             "ZPos": -456,
-                            "YScale": 0.6999984,
+                            "YScale": 0.6999983,
                             "XRotation": -1536,
                             "YRotation": -1024,
                             "ZRotation": 0
@@ -13781,7 +13781,7 @@
                             "XPos": 293,
                             "YPos": -71,
                             "ZPos": 353,
-                            "YScale": 0.6999984,
+                            "YScale": 0.6999983,
                             "XRotation": -1536,
                             "YRotation": -1024,
                             "ZRotation": 0
@@ -13793,7 +13793,7 @@
                             "XPos": 217,
                             "YPos": -71,
                             "ZPos": 353,
-                            "YScale": 0.6999984,
+                            "YScale": 0.6999983,
                             "XRotation": -1536,
                             "YRotation": -1024,
                             "ZRotation": 0
@@ -16464,7 +16464,7 @@
                             "XPos": 302,
                             "YPos": 90,
                             "ZPos": 162,
-                            "XScale": 0.5299991,
+                            "XScale": 0.529999,
                             "XRotation": 0,
                             "YRotation": -512,
                             "ZRotation": 0
@@ -16476,7 +16476,7 @@
                             "XPos": 268,
                             "YPos": 90,
                             "ZPos": 162,
-                            "XScale": 0.5299991,
+                            "XScale": 0.529999,
                             "XRotation": 0,
                             "YRotation": -512,
                             "ZRotation": 0
@@ -17851,36 +17851,6 @@
                         },
                         {
                             "Position": 0,
-                            "XPos": -423,
-                            "YPos": -34,
-                            "ZPos": -229,
-                            "TextureArchive": 213,
-                            "TextureRecord": 0,
-                            "FactionID": 0,
-                            "Flags": 0
-                        },
-                        {
-                            "Position": 0,
-                            "XPos": -429,
-                            "YPos": -34,
-                            "ZPos": -225,
-                            "TextureArchive": 213,
-                            "TextureRecord": 0,
-                            "FactionID": 0,
-                            "Flags": 0
-                        },
-                        {
-                            "Position": 0,
-                            "XPos": -431,
-                            "YPos": -34,
-                            "ZPos": -231,
-                            "TextureArchive": 213,
-                            "TextureRecord": 0,
-                            "FactionID": 0,
-                            "Flags": 0
-                        },
-                        {
-                            "Position": 0,
                             "XPos": 320,
                             "YPos": -80,
                             "ZPos": -350,
@@ -18302,7 +18272,7 @@
                         {
                             "Position": 0,
                             "XPos": -320,
-                            "YPos": 47,
+                            "YPos": 48,
                             "ZPos": 257,
                             "TextureArchive": 210,
                             "TextureRecord": 13,
@@ -20373,10 +20343,10 @@
                         },
                         {
                             "Position": 14,
-                            "XPos": 388,
+                            "XPos": 379,
                             "YPos": 81,
-                            "ZPos": -41,
-                            "YRotation": -512,
+                            "ZPos": -87,
+                            "YRotation": -1536,
                             "OpenRotation": 90,
                             "DoorModelIndex": 0
                         },
